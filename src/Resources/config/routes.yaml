@@ -6,11 +6,11 @@ setono_sylius_gift_card_shop:
 
 setono_sylius_gift_card_admin:
     resource: "@SetonoSyliusGiftCardPlugin/Resources/config/routes/admin.yaml"
-    prefix: /admin
+    prefix: '/%sylius_admin.path_name%'
 
 setono_sylius_gift_card_admin_ajax:
     resource: "@SetonoSyliusGiftCardPlugin/Resources/config/routes/admin_ajax.yaml"
-    prefix: /admin/ajax
+    prefix: '/%sylius_admin.path_name%/ajax'
     
 setono_sylius_gift_card_admin_api:
     resource: "@SetonoSyliusGiftCardPlugin/Resources/config/routes/admin_api.yaml"
